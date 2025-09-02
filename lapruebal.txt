@@ -1,0 +1,8 @@
+create database if not exists `laprueba`; 
+CREATE TABLE IF NOT EXISTS `laprueba`.`usuarios` (
+  `id` BIGINT NOT NULL AUTO_INCREMENT,
+  `nombre` VARCHAR(255) NULL DEFAULT NULL,
+  `correo` VARCHAR(255) NULL DEFAULT NULL,
+  `clave` VARCHAR(255) NULL DEFAULT NULL,
+  `fecha_creacion` TIMESTAMP NULL DEFAULT NULL,
+  PRIMARY KEY (`id`));
